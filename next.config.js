@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env : {
-    URL:'2bc3dfc280mshe15193348629db3p12afcfjsn69d0c54a43e4',
+    URL:'ac1690eb0emshfeb8b2f3a34553fp1dee92jsn82d8f17c22b6',
   }
 }
 
