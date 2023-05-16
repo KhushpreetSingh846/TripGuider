@@ -8,6 +8,13 @@
     position: relative;
     z-index: 2;
 }
+.explore-img{
+    background-image: url("/img/banner.jpg");
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
 .section-img::before{
     position: absolute;
     content: "";

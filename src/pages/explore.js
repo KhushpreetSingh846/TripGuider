@@ -2,8 +2,11 @@ import React,{useEffect, useState} from 'react'
 import Search from '../../modules/Search'
 import CardSlider from '../../modules/CardSlider'
 import styles from '../../modules/css/explore.module.css'
+import banner from '../../modules/css/Banner.module.css'
+
 import Loader from '../../modules/Loader'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 export default function Explore() {
     const router = useRouter();
     const [hotels,setHotels] = useState([])
@@ -146,14 +149,23 @@ export default function Explore() {
         }
     },[])
     return (
-        <div className='container'>
-            <div className={`col-12 row d-justify-center mt-10 ${styles["wrapper"]}`}>
-                <Search handler={hotelsListing}/>
+        <>
+            <div className={banner["explore-img"]}>
+        
+                <div className='container row d-align-center d-justify-space-between'>
+                    <Link href="/"><h1 className='text-primary f-700' style={{fontSize:"36px"}}>Trip<span className='text-white'>Guider</span></h1></Link>
+                    <div className={`col-8 row d-justify-space-between mt-10 ${styles["wrapper"]}`}>
+                        <Search handler={hotelsListing}/>
+                    </div>
+                </div>
             </div>
-            <div className='grid-3 gap-5 mt-10'>
-                {hotels?.map((item,id)=><CardSlider data={item} key={id}/>)}
-            </div>
-            {loading && <Loader/>}
-        </div>
+            <div className='container'>
+                
+                    <div className='grid-3 gap-5 mt-10'>
+                        {hotels?.map((item,id)=><CardSlider data={item} key={id}/>)}
+                    </div>
+                    {loading && <Loader/>}
+                </div>
+        </>
     )
 }
