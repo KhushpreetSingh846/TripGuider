@@ -130,19 +130,19 @@ export default function Explore() {
     }
     useEffect(()=>{
         if(router.query["id"]){
-            hotelsListing('2023-25-29','2023-25-17',2,router.query["id"])
+            hotelsListing('2023-05-29','2023-05-17',2,router.query["id"])
         }else if(router.query["type"]){
-            hotelsListingWithType('2023-25-29','2023-25-17',2,444,router.query["type"])
+            hotelsListingWithType('2023-05-29','2023-05-17',2,444,router.query["type"])
         }else if(router.query["payment"]){
-            hotelsListingWithPayment('2023-25-29','2023-25-17',2,444,router.query["payment"])
+            hotelsListingWithPayment('2023-05-29','2023-05-17',2,444,router.query["payment"])
         }else if(router.query["amenities"]){
-            hotelsListingWithAmenities('2023-25-29','2023-25-17',2,444,router.query["amenities"])
+            hotelsListingWithAmenities('2023-05-29','2023-05-17',2,444,router.query["amenities"])
         }else if(router.query["accessibility"]){
-            hotelsListingWithAccessibilities('2023-25-29','2023-25-17',2,444,router.query["accessibility"])
+            hotelsListingWithAccessibilities('2023-05-29','2023-05-17',2,444,router.query["accessibility"])
         }else if(router.query["meal_plan"]){
-            hotelsListingWithMealPlan('2023-25-29','2023-25-17',2,444,router.query["meal_plan"])
+            hotelsListingWithMealPlan('2023-05-29','2023-05-17',2,444,router.query["meal_plan"])
         }else{
-            hotelsListing('2023-25-29','2023-25-17',2,444)
+            hotelsListing('2023-05-29','2023-05-17',2,444)
         }
     },[])
     return (
