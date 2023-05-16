@@ -1,0 +1,167 @@
+.container{
+    width: 100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+:root{
+    --black:#000000;
+    --white:#ffffff;
+    --primary:#FF5A5F;
+    --secondary:#DE3151;
+    --grey:#6B7280;
+    --dark-grey:#575757;
+    --light--grey:#777777;
+    --smoke-white:#D0CFCF;
+}
+a{
+    text-decoration: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.text-primary{
+    color:var(--primary);
+}
+.text-black{
+    color:var(--black);
+}
+.text-grey{
+    color: var(--grey);
+}
+.text-dark-grey{
+    color: var(--dark-grey);
+}
+.text-light-grey{
+    color: var(--light--grey);
+}
+.text-smoke-white{
+    color: var(--smoke-white);
+}
+.text-white{
+    color: var(--white);
+}
+.bg-black{
+    background-color:var(--black)
+}
+.bg-white{
+    background-color: var(--white);
+}
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.bg-primary{
+    background-color:var(--primary);
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.btn{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: transparent;
+}
+.btn-small{
+    padding: 12px 19px;
+}
+.border{
+    border: 1px solid #E5E7EB;
+}
+.border-top{
+    border-top: 1px solid #E5E7EB;
+}
+.border-bottom{
+    border-bottom: 1px solid #E5E7EB;
+}
+.border-right{
+    border-right: 1px solid rgba(165, 163, 163,0.3);
+}
+.border-black{
+    border: 1px solid var(--black);
+}
+.rounded-8{
+    border-radius: 8px;
+}
+.rounded-12{
+    border-radius: 12px;
+}
+.rounded{
+    border-radius: 100px;
+}
+.p-relative{
+    position: relative;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.swiper-wrapper{
+    padding-bottom: 35px;
+}
+.swiper-pagination{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.swiper-pagination-bullet{
+    height: 24px;
+    width: 24px;
+    border-radius: 100px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.swiper-pagination-bullet-active{
+    background-color: #DE3151;
+    color: white;
+}
+.modal-container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgba(0,0,0,.2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.scale{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #000000;
+    transition: all 5s ease-in;
+}
+.active{
+   height: 500px;
+}
+.Reserve-button{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    font-weight: 500;
+    transition: 0.3s all ease;
+}
+.Reserve-button:hover{
+    font-weight: 600;
+    bottom: 40px;
+}

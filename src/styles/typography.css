@@ -1,0 +1,200 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+.h1,
+h1 {
+    font-size: 44px;
+    line-height: 51px;
+    margin: 0;
+}
+
+.h2,
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.h3,
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.h4,
+h4 {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.h5,
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.h6,
+h6 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+.font-10{
+    font-size: 10px;
+    line-height: 16px;
+}
+.font-12{
+    font-size: 12px;
+    line-height: 16px;
+}
+.font-13{
+    font-size: 13px;
+    line-height: 15px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-17{
+    font-size: 17px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-33{
+    font-size: 33px;
+}
+.font-34{
+    font-size: 34px;
+}
+.l-16{
+    line-height: 16px;
+}
+.l-17{
+    line-height: 17px;
+}
+.l-18{
+    line-height: 18px;
+}
+.l-19{
+    line-height: 19px;
+}
+.l-20{
+    line-height: 20px;
+}
+.l-21{
+    line-height: 21px;
+}
+.l-24{
+    line-height: 24px;
+}
+.l-25{
+    line-height: 25px;
+}
+.l-32{
+    line-height: 32px;
+}
+.l-35{
+    line-height: 35px;
+}
+.l-38{
+    line-height: 38px;
+}
+.l-40{
+    line-height: 40px;
+}
+.l-51{
+    line-height: 51px;
+}
+.f-100 {
+    font-weight: 100;
+}
+
+.f-200 {
+    font-weight: 200;
+}
+
+.f-300 {
+    font-weight: 300;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.f-500 {
+    font-weight: 500;
+}
+
+.f-600 {
+    font-weight: 600;
+}
+
+.f-700 {
+    font-weight: 700;
+}
+
+.f-800 {
+    font-weight: 800;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.word-break-all {
+    word-break: break-all;
+}
+.op-cover{
+    opacity: cover;
+}
+.height{
+    height: 100%;
+}

@@ -1,0 +1,55 @@
+.section-img{
+    background-image: url("/img/banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: toP center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.section-img::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.58);
+    z-index: 3;
+}
+.section-img div,
+.section-img h1,
+.section-img a{
+    z-index: 5;
+}
+.section-img h1{
+    font-size: 87px;
+    line-height: 110px;
+    text-transform: capitalize;
+}
+.section-img button{
+    margin-top: 40px;
+    padding: 20px 40px;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    z-index: 5;
+    width: 200px;
+    background-color: #DE3151;
+    border: none;
+    transition: 0.4s all ease;
+    cursor: pointer;
+}
+.section-img button:hover{
+    background-color: white;
+    color: #DE3151;
+}
+.logo{
+    max-width: 60px;
+}
+.logo img {
+    width: 100%;
+}
